@@ -8,14 +8,6 @@ internal class Day1 : IDay
     private int password = 0;
     private bool countAnyClick;
 
-    /*
-     * Part 1:
-       Result: 1177
-
-       Part 2:
-       Result: 6768
-     */
-
     public string Solve()
     {
         var input = EmbeddedResource.ReadInput($"Input{GetType().Name}.txt");
