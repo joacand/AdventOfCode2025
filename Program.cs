@@ -9,5 +9,5 @@ Console.WriteLine("""
                                                                                     
     """);
 
-Console.WriteLine(new Day2().Solve());
+Console.WriteLine(new Day3().Solve());
 Console.ReadLine();
