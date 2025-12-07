@@ -13,5 +13,5 @@ where `{day}` is the day number (Example: `InputDay5.txt`).
 
 ## Visualizations
 
-### Day 7, Part 2, Christmas Tree
-![Day 7 Part 2 Christmas Tree](Images/day2_2_tree.png)
+### Day 7, Christmas Tree
+![Day 7 Christmas Tree](Images/day7_tree.png)
