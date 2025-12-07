@@ -10,3 +10,8 @@ To test with your own inputs, place them in the `Data` directory using the namin
 InputDay{day}.txt
 ```
 where `{day}` is the day number (Example: `InputDay5.txt`).
+
+## Visualizations
+
+### Day 7, Part 2, Christmas Tree
+![Day 7 Part 2 Christmas Tree](Images/day2_2_tree.png)

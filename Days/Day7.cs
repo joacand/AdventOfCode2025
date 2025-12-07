@@ -1,11 +1,21 @@
 ﻿using AdventOfCode2025.Common;
 using AdventOfCode2025.Data;
+using AdventOfCode2025.Visualization;
 
 namespace AdventOfCode2025.Days;
 
 internal class Day7 : IDay
 {
-    private readonly bool printGrid = false;
+    private readonly bool enableVisualization = false;
+
+    public Day7()
+    {
+        if (enableVisualization)
+        {
+            Console.Clear();
+            Console.SetOut(new Day7Writer(Console.Out));
+        }
+    }
 
     public string Solve()
     {
@@ -34,7 +44,11 @@ internal class Day7 : IDay
             }
 
             newBeams.ForEach(entry => grid[entry.Row, entry.Column] = '|');
-            if (printGrid) { grid.Print(); }
+            if (enableVisualization)
+            {
+                grid.Print();
+                Console.WriteLine("CaretReset");
+            }
         }
         return splits;
     }

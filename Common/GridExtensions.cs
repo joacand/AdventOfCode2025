@@ -20,7 +20,6 @@ internal static class GridExtensions
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine();
         }
     }
 }
